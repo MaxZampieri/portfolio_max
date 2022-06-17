@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Comfortaa";
+    background: #000000;
+} 
+
+/*====Botão scroll====*/
+.scroll__button img{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    background-color: rgba(255, 255, 0, 0.521);
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 425px){
+    .scroll__button {
+        display: none;
+    }
+}
