@@ -54,7 +54,7 @@
 
   @media screen and (max-width: 425px){
     .contact {
-        margin-top: 300px;
+        margin-top: 400px;
     }
     .contact__container {
         width: 100%;
@@ -76,8 +76,5 @@
         
     }
   }
-  @media screen and (min-width: 425px){
-    .contact {
-        margin-top: 400px;
-    }
+ 
   }
