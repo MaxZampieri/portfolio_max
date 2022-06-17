@@ -9,7 +9,7 @@
 }
 .hobbies__cards {
     background-color: #ffffff;
-    border: 2px solid yellow;
+    border: 2px solid #dddd10;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,12 +18,17 @@
     margin: 35px;
 
 }
+.hobbies__cards img {
+    filter: invert(94%) sepia(31%) saturate(2785%) hue-rotate(359deg) brightness(93%) contrast(87%);
+}
+
 .hobbies img {
-    background-color: yellow;
+    background: none;
     width: 60px;
     height: 60px;
     border-radius: 10px;
 }
+
 /*=========Responsive===========*/
 
 
@@ -50,7 +55,7 @@
         
     }
     .hobbies img {
-        background-color: rgb(165, 165, 29);
+        background: none;
         width: 30px;
         height: 30px;
         border-radius: 5px;
