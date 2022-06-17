@@ -85,6 +85,7 @@
     
     .content__text h1 {
         font-size: 2rem;
+        color: red;
 
     }
     .content {
@@ -119,8 +120,5 @@
         flex-direction: column;
     
     }
-    .content__text h1 {
-        
-        color: rgb(206, 206, 35);
-    }
+    
 }
