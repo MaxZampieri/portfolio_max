@@ -13,8 +13,9 @@ body {
     bottom: 0;
     right: 0;
     width: 70px;
-    background-color: rgba(255, 255, 0, 0.521);
+    filter: invert(94%) sepia(31%) saturate(2785%) hue-rotate(359deg) brightness(93%) contrast(87%);
     border-radius: 50%;
+    padding: 5px;
 }
 
 @media screen and (max-width: 425px){

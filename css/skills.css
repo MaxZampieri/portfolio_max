@@ -19,13 +19,10 @@
     margin: 35px;
 }
 .skill__cards img {
-    
+    filter: invert(94%) sepia(31%) saturate(2785%) hue-rotate(359deg) brightness(93%) contrast(87%);
     width: 60px;
     height: 60px;
     border-radius: 10px;
-}
-.skill__cards img {
-    filter: invert(94%) sepia(31%) saturate(2785%) hue-rotate(359deg) brightness(93%) contrast(87%);
 }
 
 /*=========Responsive===========*/
