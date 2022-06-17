@@ -120,5 +120,19 @@
         flex-direction: column;
     
     }
+    .content__buttons___btn {
+        color: rgb(165, 165, 29);
+    }
+    .img__wrapper::before {
+        content: "";
+        position:absolute;
+        inset: -15px;
+        border: 6px solid #000000;
+        border-top-color: rgb(165, 165, 29);
+        border-bottom-color: rgb(165, 165, 29);
+        border-radius: 50%;
+        animation: spin 3s linear infinite;
+        
+    }
     
 }

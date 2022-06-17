@@ -39,14 +39,14 @@
         margin-left: 10px;
     }
     .skill__cards img {
-        background-color: yellow;
+        background-color: rgb(165, 165, 29);
         width: 30px;
         height: 30px;
         border-radius: 5px;
     }
     .skill__cards {
         background-color: #ffffff;
-        border: 2px solid yellow;
+        border: 2px solid rgb(165, 165, 29);
         display: flex;
         flex-direction: column;
         align-items: center;

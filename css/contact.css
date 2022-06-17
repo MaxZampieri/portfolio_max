@@ -75,6 +75,9 @@
           
         
     }
+    .contact__input button {
+        border: 2px solid rgb(165, 165, 29);
+    }
   }
 
   
