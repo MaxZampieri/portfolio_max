@@ -25,6 +25,7 @@ header {
 }
 .list a:hover{
     color: yellow;
+    transition: 1s;
 }
 /* ======== Responsive ==========*/
 
