@@ -39,6 +39,7 @@
     background: #000000;
     color: #ffffff;
     border-radius: 5px;
+    
 }
 .content__buttons___btn:hover {
     transform: scale(1.1);

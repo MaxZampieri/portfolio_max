@@ -23,3 +23,16 @@ body {
         display: none;
     }
 }
+/*====scroll color====*/
+::-webkit-scrollbar {
+    width: 18px;
+}
+::-webkit-scrollbar-track {
+    background-color: #131313;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(71, 70, 70);
+    border-radius: 8px;
+
+}
+
