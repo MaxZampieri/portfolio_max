@@ -43,10 +43,12 @@
         width: 30px;
         height: 30px;
         border-radius: 5px;
+        filter: invert(79%) sepia(63%) saturate(2952%) hue-rotate(5deg) brightness(110%) contrast(104%);
+        
     }
     .skill__cards {
         background-color: #ffffff;
-        border: 2px solid rgb(165, 165, 29);
+        border: 2px solid #FFD200;
         display: flex;
         flex-direction: column;
         align-items: center;

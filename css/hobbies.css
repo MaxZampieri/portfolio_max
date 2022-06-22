@@ -45,7 +45,7 @@
     }
     .hobbies__cards {
         background-color: #ffffff;
-        border: 2px solid rgb(165, 165, 29);
+        border: 2px solid #FFD200;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -53,6 +53,9 @@
         border-radius: 5px;
         margin: 10px;
         
+    }
+    .hobbies__cards img {
+        filter: invert(79%) sepia(63%) saturate(2952%) hue-rotate(5deg) brightness(110%) contrast(104%);
     }
     .hobbies img {
         background: none;

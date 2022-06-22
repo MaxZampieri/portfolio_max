@@ -122,15 +122,15 @@
     
     }
     .content__buttons___btn {
-        color: rgb(165, 165, 29);
+        color: #FFD200;
     }
     .img__wrapper::before {
         content: "";
         position:absolute;
         inset: -15px;
         border: 6px solid #000000;
-        border-top-color: rgb(165, 165, 29);
-        border-bottom-color: rgb(165, 165, 29);
+        border-top-color: #FFD200;
+        border-bottom-color: #FFD200;
         border-radius: 50%;
         animation: spin 3s linear infinite;
         
