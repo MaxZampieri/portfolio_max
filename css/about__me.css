@@ -20,7 +20,7 @@
     word-spacing: 3px;
 }
 .about__me___content a {
-    color: #FFD200;
+    color: yellow;
 }
 .content__buttons___about {
     display: none;
@@ -67,6 +67,9 @@
         transform: scale(1.1);
         transition: all 0.5s;
       } 
+      .about__me___content a {
+        color: #FFD200;
+      }
 
     
     
