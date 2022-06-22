@@ -20,7 +20,7 @@
     word-spacing: 3px;
 }
 .about__me___content a {
-    color: yellow;
+    color: #FFD200;
 }
 .content__buttons___about {
     display: none;
@@ -55,7 +55,7 @@
     .content__buttons___btn___about {
         width: 105px;
         height: 35px;
-        border: 1px solid yellow;
+        border: 2px solid #FFD200;
         background: #000000;
         color: #ffffff;
         border-radius: 5px;

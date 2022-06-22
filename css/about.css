@@ -123,6 +123,7 @@
     }
     .content__buttons___btn {
         color: #FFD200;
+        
     }
     .img__wrapper::before {
         content: "";
