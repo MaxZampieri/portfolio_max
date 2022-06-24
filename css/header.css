@@ -8,7 +8,7 @@ header {
 }
  .logo {
     padding: 30px;
-    color: rgb(236, 236, 6);
+    color: var(--color--yellow);
  }
 
 .list {
@@ -24,7 +24,7 @@ header {
     color: #ffffff;
 }
 .list a:hover{
-    color: yellow;
+    color: var(--color--yellow);
     transition: 1s;
 }
 /* ======== Responsive ==========*/

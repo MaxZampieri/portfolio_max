@@ -18,7 +18,7 @@
   justify-content: space-around;
   align-items: center;
   margin: 50px 80px;
-  border: 2px solid yellow;
+  border: 2px solid var(--color--yellow);
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.1) ;
   backdrop-filter: blur(10px);

@@ -19,10 +19,78 @@
     word-spacing: 3px;
 }
 .about__me___content a {
-    color: yellow;
+    color: var(--color--yellow);
 }
 .content__buttons___about {
     display: none;
+} 
+/*=========Cards social medias===========*/
+
+.container_cards {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    background: #000000;
+} 
+.card {
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    margin: 0 5rem;
+    text-align: center;
+    line-height: 8rem;
+    color: var(--color--yellow);
+    border-radius: 0.8rem;
+    transform-style: preserve-3d;
+    cursor: pointer;
+   
+}
+.card a {
+    color: var(--color--yellow);
+}
+.face {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.5s ease-in-out;
+    
+}
+.face--front {
+    background: #232526; 
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526); 
+
+    font-size: 3rem;
+    
+    z-index: 1;
+    
+}
+.face--back {
+    background: #232526; 
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526); 
+    
+    font-size: 1.5rem;
+    transform: rotateX(90deg);
+    
+}
+.card:hover .face--front {
+    transform: rotateX(-90deg);
+   
+}
+.card:hover .face--back {
+    transform: rotateX(0deg);
+    z-index: 1;
+    
 }
 
 /*=========Responsive===========*/
@@ -68,6 +136,9 @@
       .about__me___content a {
         color: #FFD200;
       }
+    .container_cards {
+        display: none;
+    }
 
     
     

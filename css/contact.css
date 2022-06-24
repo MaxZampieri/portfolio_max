@@ -34,7 +34,7 @@
     border-radius: 10px;
     background-color: #000000;
     color: #ffffff;
-    border: 2px solid yellow;
+    border: 2px solid var(--color--yellow);
 }
 
 #text__area {

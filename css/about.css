@@ -21,21 +21,21 @@
 .content__text h1 {
     font-size: 4.5rem;
     text-transform: uppercase;
-    color: yellow;
+    color: var(--color--yellow);
 }
 .content__text p {
     color: #ffffff;
     padding: 15px;
 }
 .content__buttons {
-    display: flex;
+    display: none;
     justify-content: space-between;
     padding-top: 20px;
 }
 .content__buttons___btn {
     width: 180px;
     height: 35px;
-    border: 1px solid yellow;
+    border: 1px solid var(--color--yellow);
     background: #000000;
     color: #ffffff;
     border-radius: 5px;
@@ -62,8 +62,8 @@
     position:absolute;
     inset: -15px;
     border: 6px solid #000000;
-    border-top-color: #FEED01;
-    border-bottom-color: #FEED01;
+    border-top-color: var(--color--yellow);
+    border-bottom-color: var(--color--yellow);
     border-radius: 50%;
     animation: spin 3s linear infinite;
     

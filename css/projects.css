@@ -16,11 +16,13 @@
     width: 800px;
     height: 600px;
     overflow: hidden;
+    
 }
 .slides {
     width: 400%;
     height: 400px;
     display: flex;
+    
 }
 .slides input {
     display: none;
@@ -36,18 +38,18 @@
 }
 .slide__link {
     width: 5px;
-    background-color: yellow;
+    background-color: var(--color--yellow);
 }
 .slide p {
     color: #ffffff;
     text-align: center;
 }
 .slide p:hover{
-    color: yellow;
+    color: var(--color--yellow);
 }
 
 .slide button {
-    border: 1px solid yellow;
+    border: 1px solid var(--color--yellow);
     background-color: #000000;
     color: #ffffff;
     justify-content: center;
