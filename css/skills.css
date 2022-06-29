@@ -10,7 +10,7 @@
     
 }
 .skill__cards {
-    background: #232526; 
+   
     background: -webkit-linear-gradient(to right, #414345, #232526); 
     background: linear-gradient(to right, #414345, #232526); 
     border: 0.5px solid rgb(77, 76, 76);
@@ -23,6 +23,7 @@
 }
 .skill__cards img {
     filter: invert(97%) sepia(77%) saturate(7490%) hue-rotate(338deg) brightness(96%) contrast(109%);
+    
     width: 60px;
     height: 60px;
     border-radius: 10px;

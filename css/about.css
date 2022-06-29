@@ -26,6 +26,7 @@
 .content__text p {
     color: #ffffff;
     padding: 15px;
+    font-size: 1.4rem;
 }
 .content__buttons {
     display: none;
